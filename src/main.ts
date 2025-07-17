@@ -5,7 +5,7 @@ import { useGsiTerrainSource } from 'maplibre-gl-gsi-terrain';
 
 const gsiTerrainSource = useGsiTerrainSource(maplibregl.addProtocol);
 
-const map = new maplibregl.Map({
+new maplibregl.Map({
 	container: 'app',
 	hash: true,
 	maxPitch: 85,
